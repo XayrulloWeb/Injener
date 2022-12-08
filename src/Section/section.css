@@ -1,0 +1,116 @@
+.section_about h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 50px;
+}
+.section_products{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.seection_product_box{
+    width: 23%;
+    margin-bottom: 40px;
+}
+.section_product-about{
+    background: #77B2D3;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 15px 15px 0px 0px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_product-about p{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section_product{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+    height: 350px;
+    margin-bottom: 20px;
+
+}
+.section_product-start p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 7px;
+    color: #333333;
+    padding: 20px 0px 0 25px;
+  
+}
+.section_uz{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+}
+.section_product-start{
+    height: 100%;
+}
+.section_product-money{
+    border-top: 1px solid #e2e2e2;
+    height: 50px;
+}
+.section_product-money p{
+    background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    height: 100%;
+}
+.section_product-money span{
+    font-size: 16px;
+    color: #333333;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.section_btn{
+    width: 100%;
+}
+
+.section_btn button{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 100%;
+    background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+    border-radius: 9px;
+    border: none;
+    height: 55px;
+
+}
+@media(max-width: 1024px){
+    .seection_product_box{
+        width: 48%;
+    }
+}

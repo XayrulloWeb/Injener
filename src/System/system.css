@@ -1,0 +1,106 @@
+.system_start-generel h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 40px;
+}
+.system_start{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.system{
+    margin-bottom: 100px;
+}
+
+.system_left{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+    width: 49%;
+}
+.system_left-block_one{
+    padding: 24px 28px;
+}
+.system_left-block_one p, .system_right-block_one p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+}
+
+
+.system_left-block_two, .system_right-block_two{
+    background: #F3F1FE;
+    padding: 24px 28px;
+}
+.system_left-block_two h5, .system_right-block_two h5{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.block_two-percent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.percent_span{
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+    font-style: normal;
+    margin-bottom: 8px;
+}
+
+.system_left-block_three{
+    padding: 24px 28px;
+}
+.system_left-block_three h5, .system_right-block_three h5{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 13px;
+}
+
+
+
+
+.system_right{
+    width: 49%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+}
+.system_right-block_one, .system_right-block_two, .system_right-block_three{
+    padding: 24px 28px;
+}
+.system_right-block_one img{
+    height: 112px;
+    width: 224px;
+    object-fit: contain;
+}
+
+@media(max-width: 1024px){
+    .system_start{
+        display: flex;
+        flex-direction: column;
+    }
+    .system_left{
+        margin-bottom: 30px;
+    }
+    .system_left, .system_right{
+        width: 100%;
+    }
+}
